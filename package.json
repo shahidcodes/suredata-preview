@@ -1,29 +1,13 @@
 {
-    "title": "Creative",
-    "name": "startbootstrap-creative",
+    "title": "Suredata Solutions",
+    "name": "suredata-preview",
     "version": "4.1.1",
-    "description": "Creative is a stylish one page HTML theme for Bootstrap.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/creative",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "description": "Suredata preview",
+    "homepage": "http://git.shahidkamal.ml/suredata-preview",
+    "author": "Shahid",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+        "url": "https://github.com/shahidcodes/suredata-preview.git"
     },
     "dependencies": {
         "bootstrap": "4.1.1",
