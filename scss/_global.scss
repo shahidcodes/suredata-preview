@@ -44,6 +44,21 @@ h6 {
   background-color: $gray-900 !important;
 }
 
+.bg-test {
+  background-color: #175676 !important;
+}
+
+.bg-test-dark {
+  background-color: #113F56 !important
+}
+
+.color-primary {
+  color: $primary !important;
+}
+.underline {
+  text-decoration: underline;
+}
+
 .text-faded {
   color: fade-out($white, .3);
 }

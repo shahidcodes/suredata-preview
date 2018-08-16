@@ -46,6 +46,22 @@ h6 {
   background-color: #212529 !important;
 }
 
+.bg-test {
+  background-color: #175676 !important;
+}
+
+.bg-test-dark {
+  background-color: #113F56 !important;
+}
+
+.color-primary {
+  color: #F05F40 !important;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -100,6 +116,7 @@ img::-moz-selection {
   color: #f05f40;
 }
 
+#mainNav .navbar-nav > li.nav-item > div.dropdown a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
@@ -108,17 +125,20 @@ img::-moz-selection {
   color: #212529;
 }
 
+#mainNav .navbar-nav > li.nav-item > div.dropdown a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #F05F40;
 }
 
+#mainNav .navbar-nav > li.nav-item > div.dropdown a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: #F05F40 !important;
   background-color: transparent;
 }
 
+#mainNav .navbar-nav > li.nav-item > div.dropdown a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
@@ -139,10 +159,12 @@ img::-moz-selection {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > div.dropdown > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > div.dropdown > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
   }
@@ -157,10 +179,12 @@ img::-moz-selection {
     color: #f05f40;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > div.dropdown > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > div.dropdown > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #F05F40;
   }
